@@ -1,0 +1,69 @@
+.brands {
+  background-color: white;
+  height: 100px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 461px;
+  width: 100%;
+}
+
+.upperdivider {
+  background-color: transparent;
+  height: 1px;
+  left: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0px;
+  width: calc(100.00% - 140px);
+  border: 2px solid #E5E7EB;
+}
+
+.brandlogo {
+  background-color: transparent;
+  height: 30px;
+  left: calc(50.00% - 265px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: calc(50.00% - 15px);
+  width: 530px;
+  background: url(https://cdn.animaapp.com/projects/6267e8559ca4aeb9f7ac93aa/releases/6267e86e0561ee1dfacdc2c0/img/logos@1x.png);
+}
+
+.lowerdivider {
+  background-color: transparent;
+  bottom: 0px;
+  height: 1px;
+  left: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  width: calc(100.00% - 140px);
+  border: 2px solid #E5E7EB;
+}
+
+@media screen and (max-width: 767px) {
+  .brands {
+    height: 148px;
+    top: 815px;
+  }
+  .upperdivider {
+    left: 30px;
+    width: calc(100.00% - 60px);
+  }
+  .lowerdivider {
+    left: 30px;
+    width: calc(100.00% - 60px);
+  }
+  .brandlogo {
+    background: url(../images/brandsmob.png);
+    height: 78px;
+    left: calc(50.00% - 133px);
+    top: calc(50.00% - 39px);
+    width: 265px;
+    background-size: contain;
+  }
+}
+/*# sourceMappingURL=brands.css.map */

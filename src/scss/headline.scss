@@ -1,0 +1,134 @@
+.headlinecontainer{
+    background-color: var(--white);
+    height: 303px;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 1347px;
+    width: 100%;
+
+}
+
+.headline{
+    background-color: transparent;
+    height: 263px;
+    left: calc(50.00% - 294px);
+    position: relative;
+    top: calc(50.00% - 132px);
+    width: 588px;
+}
+.textarea{
+    background-color: transparent;
+    height: 202px;
+    left: 378px;
+    position: absolute;
+    top: 30px;
+    width: 210px;
+
+}
+.texted{
+    background-color: transparent;
+    height: 132px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 210px;
+}
+
+ .title{
+    width: 210px;
+height: 40px;
+left:0px;
+text-align: left;
+font-family: 'Castoro';
+font-style: normal;
+font-weight: 400;
+font-size: 30px;
+line-height: 40px;
+position: absolute;
+    
+}
+ .text{
+    background-color: transparent;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: calc(50.00% - 105px);
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: calc(50.00% - 6px);
+    width: 210px;
+    color: #3b3b3b;
+}
+.buttonn{
+    background:#0b3835 ;
+    
+    border-radius: 12px;
+    bottom: 0px;
+    box-shadow: 0px 4.375px 17.5px #134e4a2e;
+    height: 40px;
+    mix-blend-mode: normal;
+    position: absolute;
+    right: 90px;
+    width: 120px;
+    
+}
+.buttonntext{
+    background-color: transparent;
+    color: var(--white);
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: calc(50.00% - 23px);
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: calc(50.00% - 12px);
+    white-space: nowrap;
+    width: auto;
+}
+
+.headlineimg{
+    background: url(../images/ImagePlaceholder.png);
+    background-color: transparent;
+    height: 263px;
+    left: 0px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 328px;
+}
+
+@media screen and (max-width:767px){
+    .headlinecontainer{
+        height: 545px;
+    top: 2445px;
+    }
+    .headline{
+        height: 505px;
+    left: calc(50.00% - 158px);
+    
+    top: calc(50.00% - 252px);
+    width: 315px;
+    }
+    .textarea{
+        left: 52px;
+    top: 0px
+    }
+    .headlineimg{
+        height: 253px;
+    top: 252px;
+    }
+    .title{
+        text-align: center;
+    }
+    .buttonn{
+        right: 45px;
+    }
+}

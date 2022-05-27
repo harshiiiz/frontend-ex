@@ -1,0 +1,37 @@
+.readmore {
+  background-color: transparent;
+  height: 8.05%;
+  left: 29.78%;
+  position: absolute;
+  top: 91.95%;
+  width: 40.14%;
+}
+
+.label {
+  background-color: transparent;
+  color: red;
+  font-style: normal;
+  font-weight: 400;
+  height: 100%;
+  left: 0px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  white-space: nowrap;
+  width: 73.07%;
+}
+
+.right-arrow {
+  background: url(../images/Vector.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  height: 75.00%;
+  left: 80.42%;
+  position: absolute;
+  top: 12.50%;
+  width: 19.93%;
+}
+/*# sourceMappingURL=Readmore.css.map */

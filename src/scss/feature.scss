@@ -1,0 +1,155 @@
+.featurescontainer{
+    background-color: white;
+    height: 786px;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 561px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 50px;
+
+
+}
+.feature1{
+    left: 0px;
+    top:0px;
+}
+.feature2{
+    left:275px;
+    top:0px;
+}
+.feature3{
+    top:348px;
+    left: 0px;
+}
+.feature4{
+    top:348px;
+    left:275px;
+}
+.features{
+    left: calc(50.00% - 250px);
+    background-color: transparent;
+    height: 646px;
+    
+    position: relative;
+    top: calc(50.00% - 323px);
+    width: 500px;
+}
+.feature{
+    background-color: transparent;
+    height: 298px;
+   
+    mix-blend-mode: normal;
+    position: absolute;
+    
+    width: 225px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+.featureimg{
+    
+    background-color: transparent;
+    height: 40.27%;
+    left: 23.56%;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    position: absolute;
+    top: 0px;
+    width: 53.33%;
+}
+.featureimg1{
+    background: url(../images/features/Image.png);
+}
+ .featureimg2{
+    background: url(../images/features/Image2.png);
+}
+.featureimg3{
+    background: url(../images/features/Image3.png);
+}
+.featureimg4{
+    background: url(../images/features/Image4.png);
+}
+
+.feature .featuretitle{
+    background-color: transparent;
+    color: #2d2d2d;
+    font-style: normal;
+    font-weight: 400;
+    height: 12.08%;
+    left: 0px;
+    line-height: 36px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 43.76%;
+    white-space: nowrap;
+    width: 100%;
+    font-family: 'Castoro';
+    font-size: 26px;
+
+
+}
+
+
+.feature .subtitle{
+    background-color: transparent;
+    color: #2d2d2d;
+    font-style: normal;
+    font-weight: 400;
+    height: 24.16%;
+    left: 0px;
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: 62.75%;
+    width: 100%;
+}
+@media screen and (max-width:767px){
+.featurescontainer{
+    height: 1482px;
+    top: 963px;
+   
+}
+
+.features{
+    height: 1342px;
+    left: calc(50.00% - 112px);
+    top: calc(50.00% - 671px);
+    width: 225px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+}
+.feature2{
+    height: 298px;
+    left: 0px;
+    
+    top: 348px;
+}
+.feature3{
+    height: 298px;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 696px;
+}
+.feature4{
+    left: 0px;
+    top:1044px;
+}
+}

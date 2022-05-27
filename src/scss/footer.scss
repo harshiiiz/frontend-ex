@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css?family=Castoro:400|Lato:400,700,500,600|Poppins:400|Mulish:700");
+
+.footercontainer{
+    background-color: white;
+    bottom: 0px;
+    height: 182px;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    
+}
+
+
+.footer{
+    background-color: transparent;
+    height: 122px;
+    left: calc(50.00% - 334px);
+    position: absolute;
+    top: calc(50.00% - 61px);
+    width: 668px;
+}
+
+input:focus {
+    outline: none;
+  }
+  
+  .frame-1 {
+    
+    height: 122px;
+    width: 230px;
+  }
+  
+  .logo {
+      background: url(../images/Logo.png);
+      background-color: transparent;
+      height: 18px;
+      mix-blend-mode: normal;
+      position: absolute;
+      top: calc(50.00% - 62px);
+      width: 91px;
+  }
+  
+  .text-input {
+    
+    margin-top: 35px;
+    min-height: 69px;
+    width: 230px;
+    left: calc(50.00% - 115px);
+    mix-blend-mode: normal;
+    height: 69px;
+    top: calc(50.00% - 8px);
+    
+  }
+  
+  .titled {
+    letter-spacing: 0;
+    line-height: 24px;
+    min-height: 24px;
+    white-space: nowrap;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+  }
+  
+  .primary-cta {
+    align-items: center;
+    background-color: var(--concrete);
+    border-radius: 12px;
+    display: flex;
+    height: 40px;
+    margin-top: 5px;
+    min-width: 230px;
+    padding: 0 16px;
+  }
+  
+  .enter-your-email {
+    background-color: 
+  transparent;
+    border: 0;
+    height: 24px;
+    letter-spacing: 0;
+    line-height: 24px;
+    opacity: 0.4;
+    padding: 0;
+    white-space: nowrap;
+    width: 151px;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+  }
+  
+  .enter-your-email::placeholder {
+    color: 
+  #2d2d2d99;
+  }
+  
+  .place {
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-left: 16px;
+    min-height: 24px;
+    min-width: 31px;
+    white-space: nowrap;
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+
+color: #FF6250;
+  }
+.frame2{
+    background-color: transparent;
+    height: 122px;
+    left: 353px;
+    position: absolute;
+    top: 0px;
+    width: 315px;
+    
+}
+
+
+.titlinks{
+    background: url(../images/Titleslinks.png);
+    background-color: transparent;
+    height: 24px;
+    left: 0px;
+    position: absolute;
+    top: 98px;
+    
+    width: 315px;
+
+}
+
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.socials {
+  background-color: transparent;
+    height: 36px;
+    left: calc(50.00% - 120px);
+    position: absolute;
+    top: calc(50.00% - 17px);
+    width: 232px;
+}
+
+.overlap-group {
+  height: 38px;
+  position: relative;
+  width: 233px;
+}
+
+.live-links {
+  height: 36px;
+  left: 1px;
+  position: absolute;
+  top: 2px;
+  width: 232px;
+  background-color: transparent;
+    height: 36px;
+    left: calc(50.00% - 120px);
+    position: absolute;
+    top: calc(50.00% - 17px);
+    width: 232px;
+}
+
+.socials .discord  {
+  
+    cursor: pointer;
+    height: 36px;
+    left: calc(50.00% - 122px);
+    letter-spacing: 0.00px;
+    line-height: 42.7px;
+    mix-blend-mode: normal;
+    opacity: 0.0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: calc(50.00% - 19px);
+    white-space: nowrap;
+    width: 36px;
+  background-image: url(../images/Footer/discord.png);
+  
+  
+}
+
+
+
+.facebook {
+  background-color: transparent;
+    cursor: pointer;
+    height: 36px;
+    left: calc(50.00% - 72px);
+    letter-spacing: 0.00px;
+    line-height: 42.7px;
+    mix-blend-mode: normal;
+    opacity: 0.0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: calc(50.00% - 18px);
+    white-space: nowrap;
+    width: 36px;
+    background: url(../images/Footer/facebook.png);
+  background-repeat: no-repeat;
+
+}
+
+.dribbble {
+  background-color: transparent;
+    cursor: pointer;
+    height: 36px;
+    left: calc(50.00% - 24px);
+    letter-spacing: 0.00px;
+    line-height: 42.7px;
+    mix-blend-mode: normal;
+    opacity: 0.0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: calc(50.00% - 19px);
+    white-space: nowrap;
+    width: 36px;
+    background: url(../images/Footer/globe.png);
+  background-repeat: no-repeat;
+}
+
+.instagram {
+  background-color: transparent;
+    cursor: pointer;
+    height: 36px;
+    left: calc(50.00% + 26px);
+    letter-spacing: 0.00px;
+    line-height: 42.7px;
+    mix-blend-mode: normal;
+    opacity: 0.0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: calc(50.00% - 19px);
+    white-space: nowrap;
+    width: 36px;
+    background: url(../images/Footer/insta.png);
+  background-repeat: no-repeat;
+}
+
+
+.behance {
+  background-color: transparent;
+    cursor: pointer;
+    height: 36px;
+    left: calc(50.00% + 74px);
+    letter-spacing: 0.00px;
+    line-height: 42.7px;
+    mix-blend-mode: normal;
+    opacity: 0.0;
+    position: absolute;
+    text-align: center;
+    text-decoration: underline;
+    top: calc(50.00% - 19px);
+    white-space: nowrap;
+    width: 36px;
+    background: url(../images/Footer/be.png);
+    background-repeat: no-repeat;
+ 
+}
+  
+@media screen and (max-width:767px){
+  
+.footercontainer{
+  height: 299px;
+  bottom: 0px;
+}
+.footer{
+  height: 239px;
+    left: calc(50.00% - 158px);
+   
+    top: calc(50.00% - 120px);
+    width: 315px;
+}
+.frame-1{
+  height: 117px;
+    left: 0px;
+    
+    top: 0px;
+    width: 315px;
+}
+.frame2{
+  background-color: transparent;
+    height: 92px;
+    left: 0px;
+    position: absolute;
+    top: 147px;
+    width: 315px;
+}
+.logo{
+  left: calc(50.00% - 158px);
+    
+    top: calc(50.00% - 109px);
+    
+}
+.text-input{
+  
+    left: calc(50.00% - 158px);
+    mix-blend-mode: normal;
+    position: absolute;
+    top: calc(50.00% - 62px);
+    margin-top: 0px;
+}
+.titlinks{
+  top: 68px;
+}
+.socials{
+  left: calc(50.00% - 158px);
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    top: calc(50.00% - 46px);
+}
+
+}

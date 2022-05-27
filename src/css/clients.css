@@ -1,0 +1,341 @@
+@import url("https://fonts.googleapis.com/css?family=Castoro:400|Lato:400,700,500,600|Poppins:400|Mulish:700");
+.clientcontainer {
+  position: absolute;
+  height: 412px;
+  left: 0px;
+  right: 0px;
+  top: 1650px;
+  background: #FFFFFF;
+}
+
+.clients {
+  background-color: transparent;
+  height: 291px;
+  left: calc(50.00% - 294px);
+  position: relative;
+  top: calc(50.00% - 146px);
+  width: 589px;
+}
+
+.clientcomments {
+  background-color: transparent;
+  height: 74.23%;
+  left: 0px;
+  position: absolute;
+  top: 25.77%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  row-gap: 1px;
+}
+
+.clienttitle {
+  width: 255px;
+  height: 40px;
+  font-family: 'Castoro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.client {
+  width: 183px;
+  height: 216px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  background: #FBF9F3;
+}
+
+.client1 {
+  left: 0px;
+}
+
+.client2 {
+  left: 203px;
+}
+
+.client3 {
+  left: 406px;
+}
+
+.comment {
+  position: absolute;
+  width: 143px;
+  height: auto;
+  top: 20px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11.7141px;
+  line-height: 18px;
+  /* or 150% */
+  color: #2D2D2D;
+}
+
+.client-comment {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  min-width: 126px;
+  background-color: transparent;
+  height: 45px;
+  left: 20px;
+  position: absolute;
+  top: 151px;
+  width: 126px;
+}
+
+.component {
+  background-color: transparent;
+  height: 45px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 45px;
+}
+
+.component1 {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-image: url(../images/client/person1.png);
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  margin-bottom: 0;
+  min-width: 45px;
+}
+
+.component2 {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-image: url(../images/client/person3.png);
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  margin-bottom: 0;
+  min-width: 45px;
+}
+
+.component3 {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  background-image: url(../images/client/person2.png);
+  background-size: 100% 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 45px;
+  margin-bottom: 0;
+  min-width: 45px;
+}
+
+.ellipse {
+  height: 1px;
+  margin-top: 0;
+  width: 1px;
+}
+
+.client-rating {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px;
+  min-height: 33px;
+  width: 71px;
+}
+
+.full-name {
+  letter-spacing: 0;
+  line-height: 18px;
+  min-height: 18px;
+  opacity: 0.5;
+  white-space: nowrap;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 10px;
+}
+
+.pop {
+  font-size: 10px;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.stars {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3px;
+  min-width: 71px;
+}
+
+.star-1 {
+  background-image: url(../images/client/Star.png);
+  background-size: 100% 100%;
+  height: 12px;
+  margin-top: 0;
+  width: 12px;
+}
+
+.star {
+  background-image: url(../images/client/Star.png);
+  background-size: 100% 100%;
+  height: 12px;
+  margin-left: 3px;
+  margin-top: 0;
+  width: 12px;
+}
+
+.star-2 {
+  background-image: url(../images/client/Star.png);
+  background-size: 100% 100%;
+  height: 12px;
+  margin-left: 3px;
+  margin-top: 0;
+  width: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .clientcontainer {
+    height: 1351px;
+    top: 2990px;
+  }
+  .clients {
+    height: 1230px;
+    left: calc(50.00% - 158px);
+    top: calc(50.00% - 616px);
+    width: 315px;
+  }
+  .clienttitle {
+    height: 3.25%;
+    left: 9.52%;
+    width: 80.95%;
+  }
+  .clientcomments {
+    height: 93.82%;
+    top: 6.18%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .client {
+    height: 372px;
+    width: 315px;
+  }
+  .comment {
+    left: 40px;
+    line-height: 30px;
+    top: 40px;
+    width: 235px;
+  }
+  .client-comment {
+    height: 80px;
+    left: 40px;
+    top: 252px;
+    width: 221px;
+  }
+  .client {
+    height: 80px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .client-rating {
+    height: 49px;
+    left: 100px;
+    top: 31px;
+    width: 121px;
+  }
+  .poppins-normal-heavy-metal-10px {
+    line-height: 24px;
+  }
+  .stars {
+    height: 20px;
+    left: 0px;
+    top: 29px;
+    width: 121px;
+  }
+  .client1 {
+    height: 372px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 315px;
+  }
+  .client2 {
+    height: 372px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 392px;
+    width: 315px;
+  }
+  .client3 {
+    height: 372px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    top: 784px;
+    width: 315px;
+  }
+  .comment {
+    letter-spacing: 0;
+    line-height: 30.2px;
+    min-height: 121px;
+    width: 235px;
+    text-align: left;
+    position: absolute;
+    font-size: 20.1px;
+  }
+}
+/*# sourceMappingURL=clients.css.map */

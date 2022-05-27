@@ -1,0 +1,205 @@
+.trynewcontainer {
+  background-color: white;
+  height: 431px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 2062px;
+  width: 100%;
+}
+
+.bg {
+  background-color: transparent;
+  height: 283px;
+  left: calc(50.00% - 199px);
+  position: absolute;
+  top: calc(50.00% - 142px);
+  width: 399px;
+}
+
+.info {
+  background-color: transparent;
+  height: 226px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 211px;
+}
+
+.info .title {
+  height: 128px;
+}
+
+.maintitle {
+  background-color: transparent;
+  bottom: 92px;
+  color: var(--heavy-metal);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  line-height: 36px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 211px;
+}
+
+.subtitled {
+  background-color: transparent;
+  color: #3b3b3b;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  height: auto;
+  left: calc(50.00% - 106px);
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 8px);
+  width: 211px;
+}
+
+.block {
+  background-color: transparent;
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  top: 158px;
+  width: 211px;
+}
+
+.learnmore {
+  background-color: transparent;
+  bottom: 44px;
+  color: var(--heavy-metal);
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: 0px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.block2 {
+  background-color: transparent;
+  height: 34px;
+  left: 0px;
+  position: absolute;
+  top: 34px;
+  width: 211px;
+}
+
+.gplay {
+  background: url(../images/trynew/Googlepaly.png);
+  background-color: transparent;
+  bottom: -22px;
+  height: 69px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 92px;
+  width: 137px;
+}
+
+.appstore {
+  background: url(../images/trynew/Appstore.png);
+  background-color: transparent;
+  bottom: -22px;
+  height: 69px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: -18px;
+  width: 137px;
+}
+
+.iphone {
+  background-color: transparent;
+  height: 100%;
+  left: 65.44%;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 0px;
+  width: 34.56%;
+}
+
+.phonescreen {
+  background: url(../images/trynew/screenwithnotch.png);
+  background-color: transparent;
+  height: 95.41%;
+  left: 4.92%;
+  position: absolute;
+  top: 2.42%;
+  width: 90.68%;
+}
+
+.base {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  position: relative;
+  top: 0px;
+  width: 100%;
+}
+
+.shadows {
+  background-color: transparent;
+  height: 158.90%;
+  left: -84.90%;
+  position: absolute;
+  top: -18.64%;
+  width: 213.51%;
+}
+
+.blackcover {
+  background: url(../images/trynew/iphonebac.png);
+  background-color: transparent;
+  height: 100%;
+  left: -0.72%;
+  position: absolute;
+  top: 0px;
+  width: 101.93%;
+}
+
+.frame {
+  background-color: var(--light-gray);
+  border-radius: 12px;
+  height: 351px;
+  left: calc(50.00% - 294px);
+  mix-blend-mode: normal;
+  position: absolute;
+  top: calc(50.00% - 176px);
+  width: 588px;
+}
+
+@media screen and (max-width: 767px) {
+  .trynewcontainer {
+    height: 704px;
+    top: 4341px;
+  }
+  .frame {
+    height: 624px;
+    left: calc(50.00% - 158px);
+    top: calc(50.00% - 312px);
+    width: 315px;
+  }
+  .bg {
+    height: 559px;
+    left: calc(50.00% - 106px);
+    top: calc(50.00% - 280px);
+    width: 211px;
+  }
+  .iphone {
+    height: 50.63%;
+    left: 17.34%;
+    top: 49.37%;
+    width: 65.33%;
+  }
+}
+/*# sourceMappingURL=trynew.css.map */

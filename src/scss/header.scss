@@ -1,0 +1,136 @@
+.header1{
+    background-color: white;
+    height: 403px;
+    left: 0px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    position: absolute;
+    top: 58px;
+    width: 100%;
+  }
+  .content{
+    background-color: transparent;
+    height: 263px;
+    left: calc(50.00% - 304px);
+    position: relative;
+    top: calc(50.00% - 132px);
+    width: 608px;
+  }
+  .header2{
+    background-color: transparent;
+    height: 263px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 315px;
+  }
+  .title{
+    background-color: transparent;
+    height: 193px;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 315px;
+
+  }
+  .title1{
+    width: 315px;
+height: 130px;
+
+font-family: 'Castoro';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 65px;
+display: flex;
+align-items: center;
+
+color: #134E4A;
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+  }
+  .subtitle{
+    width: 285px;
+    height: 48px;
+    
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    
+    color: #3B3B3B;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    
+  }
+  .image{
+  
+  width: 273px;
+  height: 263px;
+  
+  background: url(../images/Image.jpg);
+  left: calc(50.00% + 31px);
+  object-fit: cover;
+  position: absolute;
+  
+  
+  }
+  .button{
+    background-color: #0B3835;
+    border-radius: 12px;
+    bottom: 0px;
+    box-shadow: 0px 4.375px 17.5px #134e4a2e;
+    height: 40px;
+    mix-blend-mode: normal;
+    position: absolute;
+    right: 195px;
+    width: 120px;
+    
+  }
+  .buttontext{
+    background-color: transparent;
+    color: white;
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: calc(50.00% - 35px);
+    line-height: 24px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: center;
+    top: calc(50.00% - 12px);
+    white-space: nowrap;
+    width: auto;
+  }
+
+  @media screen and (max-width:767px){
+    .header1{height: 757px;
+      } 
+    .content{
+      height: 566px;
+    left: calc(50.00% - 158px);
+    top: calc(50.00% - 284px);
+    width: 315px;
+    }
+    .image{
+      left: calc(50.00% - 158px);
+      top: calc(50.00% + 20px);
+    }
+  .title1 {
+    text-align: center;
+  }
+  .subtitle{
+    text-align: center;
+    left: calc(50.00% - 142px);
+  }
+  .button{
+    right: 98px;
+  }
+  
+  
+  }

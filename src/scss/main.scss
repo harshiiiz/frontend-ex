@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Castoro:wght@400;600&display=swap");
+
+
+@import 'variables.scss';
+@import 'topbar.scss';
+@import 'header.scss';
+
+@import 'brands.scss';
+
+@import 'feature.scss';
+
+@import 'headline.scss';
+
+@import 'clients.scss';
+
+@import 'Readmore.scss';
+
+@import 'trynew.scss';
+
+@import 'footer.scss';
+
+
+.tabcontainer{
+    width:100%;
+    background-color: var(--white);
+    height: 100vh;
+    margin: 0px;
+    min-height: 2675px;
+    min-width: 768px;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+
+}
+.mobcontainer{
+    background-color: var(--white);
+  height: 100vh;
+  margin: 0px;
+  min-height: 5344px;
+  min-width: 375px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  overflow-x: hidden;
+  position: relative;
+  width: 100%;
+}
+@media screen and (max-width: 767px) {
+    .tabcontainer { 
+      display: none;
+     }
+  }
+  @media screen and (min-width: 768px) {
+    .mobcontainer { 
+      display: none;
+     }
+  }

@@ -1,0 +1,72 @@
+.topbar {
+  background-color: white;
+  height: 58px;
+  left: 0px;
+  mix-blend-mode: normal;
+  overflow: hidden;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+.toplogo {
+  background: url(../images/Logo.png);
+  background-color: transparent;
+  height: 18px;
+  left: 29px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 20px;
+  width: 91px;
+  background-repeat: no-repeat;
+}
+
+.logocont {
+  background-color: transparent;
+  height: 34px;
+  position: absolute;
+  right: 30px;
+  top: 12px;
+  width: 211px;
+}
+
+.gp {
+  background: url(../images/trynew/Googlepaly.png);
+  background-color: transparent;
+  bottom: -16px;
+  height: 58px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: 92px;
+  width: 137px;
+}
+
+.as {
+  background: url(../images/trynew/Appstore.png);
+  background-color: transparent;
+  bottom: -16px;
+  height: 58px;
+  mix-blend-mode: normal;
+  position: absolute;
+  right: -18px;
+  width: 137px;
+}
+
+@media screen and (max-width: 767px) {
+  .toplogo {
+    left: 19px;
+  }
+  .logocont {
+    right: 20px;
+  }
+  .gp {
+    background-color: transparent;
+    bottom: -16px;
+    height: 58px;
+    mix-blend-mode: normal;
+    position: absolute;
+    right: 92px;
+    width: 137px;
+  }
+}
+/*# sourceMappingURL=topbar.css.map */
