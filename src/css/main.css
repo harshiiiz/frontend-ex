@@ -230,6 +230,7 @@
   top: calc(50.00% - 12px);
   white-space: nowrap;
   width: auto;
+  font-size: 14px;
 }
 
 @media screen and (max-width: 767px) {
@@ -1043,6 +1044,10 @@
   top: 0px;
   white-space: nowrap;
   width: 73.07%;
+  font-family: 'Lato';
+
+font-size: 14px;
+
 }
 
 .right-arrow {

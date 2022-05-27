@@ -10,7 +10,7 @@ const ClientComment:FC<proptype>=(props)=> {
     <div className="client-comment">
     <div className={`component${props.boxnum}`}>
       <img className="ellipse" src="https://cdn.animaapp.com/projects/6267e8559ca4aeb9…ses/6267e86e0561ee1dfacdc2c0/img/ellipse-4@2x.png
-"  alt='eliipseimage'/>
+"  alt='e'/>
     </div>
     <div className="client-rating">
       <div className="full-name">
