@@ -36,19 +36,19 @@ function Footer() {
             
           
         
-        <a href='https://discord.com/invite/eQxkYTNxSp' target='_blank'>
+        <a href='https://discord.com/invite/eQxkYTNxSp'>
           <div className="discord"></div>
         </a>
-        <a href='https://discord.com/invite/eQxkYTNxSp' target='_blank'>
+        <a href='https://discord.com/invite/eQxkYTNxSp' >
           <div className="facebook"></div>
         </a>
-        <a href='https://discord.com/invite/eQxkYTNxSp' target='_blank'>
+        <a href='https://discord.com/invite/eQxkYTNxSp' >
           <div className="dribble"></div>
         </a>
-        <a href='https://discord.com/invite/eQxkYTNxSp' target='_blank'>
+        <a href='https://discord.com/invite/eQxkYTNxSp' >
           <div className="instagram"></div>
         </a>
-        <a href='https://discord.com/invite/eQxkYTNxSp' target='_blank'>
+        <a href='https://discord.com/invite/eQxkYTNxSp' >
           <div className="behance"></div>
         </a>
         
