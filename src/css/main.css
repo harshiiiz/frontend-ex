@@ -742,43 +742,7 @@
   color: #2D2D2D;
 }
 
-/*
-.clientcomment{
-    background-color: transparent;
-    height: 45px;
-    left: 20px;
-    position: absolute;
-    top: 151px;
-    width: 126px;
-}
 
-.component{
-
-    background-color: transparent;
-    height: 45px;
-    left: 0px;
-    position: absolute;
-    top: 0px;
-    width: 45px;
-    
-    
-}
-.component1{
-    background: url(../images/client/Ellipse.png);
-    left: 0px;
-}
-.component2{
-    background: url(../images/client/Ellipse1.png);
-    
-
-}
-
-.component3{
-    
-    background: url(../images/client/Ellipse1.png);
-    
-
-}*/
 .client-comment {
   -webkit-box-align: end;
       -ms-flex-align: end;
@@ -1433,11 +1397,11 @@ input:focus {
 
 .socials {
   background-color: transparent;
-  height: 36px;
-  left: calc(50.00% - 120px);
-  position: absolute;
-  top: calc(50.00% - 17px);
-  width: 232px;
+    height: 38px;
+    left: calc(50.00% - 76px);
+    position: absolute;
+    top: calc(50.00% - 61px);
+    width: 243px;
 }
 
 .overlap-group {
@@ -1446,113 +1410,18 @@ input:focus {
   width: 233px;
 }
 
-.live-links {
-  height: 36px;
-  left: 1px;
-  position: absolute;
-  top: 2px;
-  width: 232px;
+.livelinks {
+  
   background-color: transparent;
   height: 36px;
   left: calc(50.00% - 120px);
   position: absolute;
   top: calc(50.00% - 17px);
   width: 232px;
+  background: url(../images/Livelinks.png);
 }
 
-.socials .discord {
-  cursor: pointer;
-  height: 36px;
-  left: calc(50.00% - 122px);
-  letter-spacing: 0.00px;
-  line-height: 42.7px;
-  mix-blend-mode: normal;
-  opacity: 0.0;
-  position: absolute;
-  text-align: center;
-  text-decoration: underline;
-  top: calc(50.00% - 19px);
-  white-space: nowrap;
-  width: 36px;
-  background-image: url(../images/Footer/discord.png);
-}
-
-.facebook {
-  background-color: transparent;
-  cursor: pointer;
-  height: 36px;
-  left: calc(50.00% - 72px);
-  letter-spacing: 0.00px;
-  line-height: 42.7px;
-  mix-blend-mode: normal;
-  opacity: 0.0;
-  position: absolute;
-  text-align: center;
-  text-decoration: underline;
-  top: calc(50.00% - 18px);
-  white-space: nowrap;
-  width: 36px;
-  background: url(../images/Footer/facebook.png);
-  background-repeat: no-repeat;
-}
-
-.dribbble {
-  background-color: transparent;
-  cursor: pointer;
-  height: 36px;
-  left: calc(50.00% - 24px);
-  letter-spacing: 0.00px;
-  line-height: 42.7px;
-  mix-blend-mode: normal;
-  opacity: 0.0;
-  position: absolute;
-  text-align: center;
-  text-decoration: underline;
-  top: calc(50.00% - 19px);
-  white-space: nowrap;
-  width: 36px;
-  background: url(../images/Footer/globe.png);
-  background-repeat: no-repeat;
-}
-
-.instagram {
-  background-color: transparent;
-  cursor: pointer;
-  height: 36px;
-  left: calc(50.00% + 26px);
-  letter-spacing: 0.00px;
-  line-height: 42.7px;
-  mix-blend-mode: normal;
-  opacity: 0.0;
-  position: absolute;
-  text-align: center;
-  text-decoration: underline;
-  top: calc(50.00% - 19px);
-  white-space: nowrap;
-  width: 36px;
-  background: url(../images/Footer/insta.png);
-  background-repeat: no-repeat;
-}
-
-.behance {
-  background-color: transparent;
-  cursor: pointer;
-  height: 36px;
-  left: calc(50.00% + 74px);
-  letter-spacing: 0.00px;
-  line-height: 42.7px;
-  mix-blend-mode: normal;
-  opacity: 0.0;
-  position: absolute;
-  text-align: center;
-  text-decoration: underline;
-  top: calc(50.00% - 19px);
-  white-space: nowrap;
-  width: 36px;
-  background: url(../images/Footer/be.png);
-  background-repeat: no-repeat;
-}
-
+ 
 @media screen and (max-width: 767px) {
   .footercontainer {
     height: 299px;

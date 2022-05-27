@@ -29,28 +29,9 @@ function Footer() {
 
 
             <div className="socials">
+              <div className="livelinks">
       
-        
-        
-          
-            
-          
-        
-        <a href='https://discord.com/invite/eQxkYTNxSp'>
-          <div className="discord"></div>
-        </a>
-        <a href='https://discord.com/invite/eQxkYTNxSp' >
-          <div className="facebook"></div>
-        </a>
-        <a href='https://discord.com/invite/eQxkYTNxSp' >
-          <div className="dribble"></div>
-        </a>
-        <a href='https://discord.com/invite/eQxkYTNxSp' >
-          <div className="instagram"></div>
-        </a>
-        <a href='https://discord.com/invite/eQxkYTNxSp' >
-          <div className="behance"></div>
-        </a>
+        </div>
         
       
     </div>
