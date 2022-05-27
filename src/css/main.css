@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Castoro:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Castoro:400|Lato:400,700,500,600|Poppins:400|Mulish:700");
-@import url("https://fonts.googleapis.com/css?family=Castoro:400|Lato:400,700,500,600|Poppins:400|Mulish:700");
+
+
 :root {
   --black-2: 
   rgba(0, 0, 0, 0);
@@ -163,7 +164,7 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #134E4A;
+  color: var(--evening-sea);
   -webkit-box-flex: 0;
       -ms-flex: none;
           flex: none;
@@ -279,7 +280,7 @@
   position: absolute;
   top: 0px;
   width: calc(100.00% - 140px);
-  border: 2px solid #E5E7EB;
+  border: 1px solid #E5E7EB;
 }
 
 .brandlogo {
@@ -302,7 +303,8 @@
      object-fit: cover;
   position: absolute;
   width: calc(100.00% - 140px);
-  border: 2px solid #E5E7EB;
+  border: 1px solid #E5E7EB;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 767px) {
@@ -1299,6 +1301,7 @@ input:focus {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  color: var(--quick-silver);
 }
 
 .primary-cta {

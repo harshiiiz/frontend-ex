@@ -3,7 +3,9 @@ import React from 'react'
 function Footer() {
   return (
     <div className='footercontainer'>
+      <div className="upperdivider"></div>
         <div className="footer">
+          
             <div className="frame-1">
                 <div className="logo"  ></div>
                 <div className="text-input">
