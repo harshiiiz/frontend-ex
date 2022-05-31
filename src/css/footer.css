@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css?family=Castoro:400|Lato:400,700,500,600|Poppins:400|Mulish:700");
 .footercontainer {
   background-color: white;
   bottom: 0px;
@@ -24,6 +23,9 @@ input:focus {
 }
 
 .frame-1 {
+  left: 0px;
+  position: absolute;
+  top: 0px;
   height: 122px;
   width: 230px;
 }
@@ -32,14 +34,17 @@ input:focus {
   background: url(../images/Logo.png);
   background-color: transparent;
   height: 18px;
+  left: calc(50.00% - 116px);
   mix-blend-mode: normal;
   position: absolute;
   top: calc(50.00% - 62px);
   width: 91px;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .text-input {
-  margin-top: 35px;
+  position: absolute;
   min-height: 69px;
   width: 230px;
   left: calc(50.00% - 115px);
@@ -57,36 +62,39 @@ input:focus {
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
+  color: var(--quick-silver);
 }
 
-.primary-cta {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+.primary-ctaa {
   background-color: var(--concrete);
   border-radius: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  height: 40px;
-  margin-top: 5px;
-  min-width: 230px;
-  padding: 0 16px;
+  height: 57.97%;
+  left: 0px;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 42.03%;
+  width: 100%;
 }
 
 .enter-your-email {
   background-color: transparent;
   border: 0;
+  color: var(--heavy-metal);
+  font-style: normal;
+  font-weight: 400;
   height: 24px;
-  letter-spacing: 0;
+  left: 16px;
   line-height: 24px;
+  mix-blend-mode: normal;
   opacity: 0.4;
   padding: 0;
+  position: absolute;
+  resize: none;
+  text-align: left;
+  top: 8px;
   white-space: nowrap;
   width: 151px;
   font-family: 'Lato';
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
 }
 
@@ -107,17 +115,19 @@ input:focus {
 }
 
 .place {
-  letter-spacing: 0;
-  line-height: 24px;
-  margin-left: 16px;
-  min-height: 24px;
-  min-width: 31px;
-  white-space: nowrap;
-  font-family: 'Lato';
+  color: var(--red);
   font-style: normal;
   font-weight: 400;
-  font-size: 14px;
+  height: auto;
+  left: 183px;
   line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 8px;
+  white-space: nowrap;
+  width: auto;
+  font-size: 14px;
   color: #FF6250;
 }
 
@@ -140,26 +150,13 @@ input:focus {
   width: 315px;
 }
 
-.valign-text-middle {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .socials {
   background-color: transparent;
-  height: 36px;
-  left: calc(50.00% - 120px);
+  height: 38px;
+  left: calc(50.00% - 76px);
   position: absolute;
-  top: calc(50.00% - 17px);
-  width: 232px;
+  top: calc(50.00% - 61px);
+  width: 243px;
 }
 
 .overlap-group {
@@ -168,111 +165,14 @@ input:focus {
   width: 233px;
 }
 
-.live-links {
-  height: 36px;
-  left: 1px;
-  position: absolute;
-  top: 2px;
-  width: 232px;
+.livelinks {
+  background: url(../images/Livelinks.png);
   background-color: transparent;
   height: 36px;
   left: calc(50.00% - 120px);
   position: absolute;
   top: calc(50.00% - 17px);
   width: 232px;
-}
-
-.socials .discord {
-  cursor: pointer;
-  height: 36px;
-  left: calc(50.00% - 122px);
-  letter-spacing: 0.00px;
-  line-height: 42.7px;
-  mix-blend-mode: normal;
-  opacity: 0.0;
-  position: absolute;
-  text-align: center;
-  text-decoration: underline;
-  top: calc(50.00% - 19px);
-  white-space: nowrap;
-  width: 36px;
-  background-image: url(../images/Footer/discord.png);
-}
-
-.facebook {
-  background-color: transparent;
-  cursor: pointer;
-  height: 36px;
-  left: calc(50.00% - 72px);
-  letter-spacing: 0.00px;
-  line-height: 42.7px;
-  mix-blend-mode: normal;
-  opacity: 0.0;
-  position: absolute;
-  text-align: center;
-  text-decoration: underline;
-  top: calc(50.00% - 18px);
-  white-space: nowrap;
-  width: 36px;
-  background: url(../images/Footer/facebook.png);
-  background-repeat: no-repeat;
-}
-
-.dribbble {
-  background-color: transparent;
-  cursor: pointer;
-  height: 36px;
-  left: calc(50.00% - 24px);
-  letter-spacing: 0.00px;
-  line-height: 42.7px;
-  mix-blend-mode: normal;
-  opacity: 0.0;
-  position: absolute;
-  text-align: center;
-  text-decoration: underline;
-  top: calc(50.00% - 19px);
-  white-space: nowrap;
-  width: 36px;
-  background: url(../images/Footer/globe.png);
-  background-repeat: no-repeat;
-}
-
-.instagram {
-  background-color: transparent;
-  cursor: pointer;
-  height: 36px;
-  left: calc(50.00% + 26px);
-  letter-spacing: 0.00px;
-  line-height: 42.7px;
-  mix-blend-mode: normal;
-  opacity: 0.0;
-  position: absolute;
-  text-align: center;
-  text-decoration: underline;
-  top: calc(50.00% - 19px);
-  white-space: nowrap;
-  width: 36px;
-  background: url(../images/Footer/insta.png);
-  background-repeat: no-repeat;
-}
-
-.behance {
-  background-color: transparent;
-  cursor: pointer;
-  height: 36px;
-  left: calc(50.00% + 74px);
-  letter-spacing: 0.00px;
-  line-height: 42.7px;
-  mix-blend-mode: normal;
-  opacity: 0.0;
-  position: absolute;
-  text-align: center;
-  text-decoration: underline;
-  top: calc(50.00% - 19px);
-  white-space: nowrap;
-  width: 36px;
-  background: url(../images/Footer/be.png);
-  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 767px) {
@@ -302,13 +202,13 @@ input:focus {
   }
   .logo {
     left: calc(50.00% - 158px);
-    top: calc(50.00% - 109px);
+    top: calc(50.00% - 59px);
   }
   .text-input {
     left: calc(50.00% - 158px);
     mix-blend-mode: normal;
     position: absolute;
-    top: calc(50.00% - 62px);
+    top: calc(50.00% - 10px);
     margin-top: 0px;
   }
   .titlinks {

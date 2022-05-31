@@ -21,17 +21,19 @@
   top: 0px;
   white-space: nowrap;
   width: 73.07%;
+  font-family: 'Lato';
+  font-size: 14px;
 }
 
 .right-arrow {
+  background-color: transparent;
   background: url(../images/Vector.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-color: transparent;
   height: 75.00%;
   left: 80.42%;
   position: absolute;
   top: 12.50%;
   width: 19.93%;
+  background-position: 10%;
 }
 /*# sourceMappingURL=Readmore.css.map */

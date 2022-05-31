@@ -24,7 +24,7 @@
     top: 0px;
     width: 315px;
   }
-  .title{
+  .titlee{
     background-color: transparent;
     height: 193px;
     left: 0px;
@@ -36,36 +36,39 @@
   .title1{
     width: 315px;
 height: 130px;
-
 font-family: 'Castoro';
 font-style: normal;
 font-weight: 400;
 font-size: 65px;
 line-height: 65px;
-display: flex;
+
 align-items: center;
 
 color: #134E4A;
-
-
-flex: none;
-order: 0;
-flex-grow: 0;
+left: calc(50.00% - 158px);
+position: absolute;
+top: calc(50.00% - 97px);
   }
+  
   .subtitle{
-    width: 285px;
-    height: 48px;
     
     font-family: 'Lato';
+    
+    font-size: 14px;
+    
+    
+    background-color: transparent;
+    color: var(--title-color);
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    height: auto;
+    left: calc(50.00% - 158px);
     line-height: 24px;
-    
-    color: #3B3B3B;
-    flex: none;
-    order: 1;
-    flex-grow: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: calc(50.00% + 48px);
+    width: 285px;
     
   }
   .image{
@@ -73,15 +76,17 @@ flex-grow: 0;
   width: 273px;
   height: 263px;
   
-  background: url(../images/Image.jpg);
+  background: url(../images/Image.svg);
   left: calc(50.00% + 31px);
+  top: calc(50.00% - 132px);
+  background-size: cover;
   object-fit: cover;
   position: absolute;
   
   
   }
-  .button{
-    background-color: #0B3835;
+  .buttonhover{
+    background-color: var(--primary);
     border-radius: 12px;
     bottom: 0px;
     box-shadow: 0px 4.375px 17.5px #134e4a2e;
@@ -90,6 +95,20 @@ flex-grow: 0;
     position: absolute;
     right: 195px;
     width: 120px;
+
+  }
+  .button{
+    background-color: var(--tiber);
+    border-radius: 10.5px;
+    cursor: pointer;
+    height: 40px;
+    left: 0px;
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: calc(50.00% - 20px);
+    transition: all 0.2s ease;
+    width: 100%;
     
   }
   .buttontext{
@@ -107,6 +126,7 @@ flex-grow: 0;
     white-space: nowrap;
     width: auto;
     font-size: 14px;
+    font-family: 'Lato';
   }
 
   @media screen and (max-width:767px){
@@ -129,7 +149,7 @@ flex-grow: 0;
     text-align: center;
     left: calc(50.00% - 142px);
   }
-  .button{
+  .buttonhover{
     right: 98px;
   }
   

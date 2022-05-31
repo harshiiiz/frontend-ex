@@ -24,22 +24,22 @@
     white-space: nowrap;
     width: 73.07%;
     font-family: 'Lato';
-font-style: normal;
-font-weight: 500;
-font-size: 14px;
-line-height: 24px;
+    font-size: 14px;
+
     
   }
   
   .right-arrow {
+    background-color: transparent;
       background: url(../images/Vector.png);
       background-repeat: no-repeat;
-      background-size: contain;
-    background-color: transparent;
+     
+    
     height: 75.00%;
     left: 80.42%;
     position: absolute;
     top: 12.50%;
     width: 19.93%;
+    background-position: 10%;
 
   }

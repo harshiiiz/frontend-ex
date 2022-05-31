@@ -35,28 +35,21 @@ background: #FFFFFF;
 }
 
 .clienttitle{
-    width: 255px;
-height: 40px;
-
-font-family: 'Castoro';
-font-style: normal;
-font-weight: 400;
-font-size: 30px;
-line-height: 40px;
-
-align-items: center;
-text-align: center;
-font-style: normal;
-    font-weight: 400;
-    height: 13.75%;
-    left: 28.35%;
-    line-height: 40px;
-    mix-blend-mode: normal;
-    position: absolute;
-    text-align: center;
-    top: 0px;
-    white-space: nowrap;
-    width: 43.29%;
+  background-color: transparent;
+  color: var(--heavy-metal);
+  font-style: normal;
+  font-weight: 400;
+  height: 13.75%;
+  left: 28.35%;
+  line-height: 40px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+  white-space: nowrap;
+  width: 43.29%;
+  font-family: 'Castoro';
+  font-size: 30px;
 }
 .client{
     width: 183px;
@@ -86,13 +79,15 @@ font-style: normal;
 width: 143px;
 height: auto;
 
-top: 20px;
+left: 20px;
 
 font-family: 'Lato';
 font-style: normal;
 font-weight: 700;
 font-size: 11.7141px;
 line-height: 18px;
+top: 20px;
+align-self: left;
 /* or 150% */
 
 
@@ -101,10 +96,8 @@ color: #2D2D2D;
 }
 
 .client-comment {
-    align-items: flex-end;
-    display: flex;
-    justify-content: flex-end;
-    min-width: 126px;
+    
+    width: 126px;
     background-color: transparent;
     height: 45px;
     left: 20px;
@@ -122,59 +115,78 @@ color: #2D2D2D;
   }
   .component1{
     align-items: flex-start;
-    background-image: url(../images/client/person1.png);
+    background-image: url(https://cdn.animaapp.com/projects/6267e8559ca4aeb9f7ac93aa/releases/6267e86e0561ee1dfacdc2c0/img/mask-group-2@2x.png);
     background-size: 100% 100%;
     display: flex;
     height: 45px;
     margin-bottom: 0;
-    min-width: 45px;
+    width: 45px;
   }
   
   .component2 {
     align-items: flex-start;
-    background-image: url(../images/client/person3.png);
+    background-image: url(https://cdn.animaapp.com/projects/6267e8559ca4aeb9f7ac93aa/releases/6267e86e0561ee1dfacdc2c0/img/image-5@2x.png);
     background-size: 100% 100%;
     display: flex;
     height: 45px;
     margin-bottom: 0;
-    min-width: 45px;
+    width: 45px;
   }
   .component3 {
     align-items: flex-start;
-    background-image: url(../images/client/person2.png);
+    background-image: url(https://cdn.animaapp.com/projects/6267e8559ca4aeb9f7ac93aa/releases/6267e86e0561ee1dfacdc2c0/img/mask-group-3@2x.png);
     background-size: 100% 100%;
     display: flex;
-    height: 45px;
-    margin-bottom: 0;
-    min-width: 45px;
+    
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
   }
   
   .ellipse {
-      
-    height: 1px;
-    margin-top: 0;
-    width: 1px;
+      background: url(../images/client/Ellipse.png);
+    background-color: transparent;
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
   }
   
   .client-rating {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    min-height: 33px;
+    background-color: transparent;
+    height: 33px;
+    left: 55px;
+    position: absolute;
+    top: 12px;
     width: 71px;
     
   }
   
   .full-name {
-    letter-spacing: 0;
-    line-height: 18px;
-    min-height: 18px;
-    opacity: 0.5;
-    white-space: nowrap;
-    font-family: 'Poppins';
+    
+    background-color: transparent;
+    color: var(--heavy-metal);
+    font-style: normal;
     font-weight: 400;
-font-size: 10px;
+    height: auto;
+    left: 0px;
+    line-height: 18px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    white-space: nowrap;
+    width: auto;
+    font-family: 'Poppins';
+    font-size: 10px;
 
    
   }
@@ -188,40 +200,84 @@ font-size: 10px;
   .stars {
     align-items: flex-start;
     display: flex;
-    margin-top: 3px;
-    min-width: 71px;
+    top: 21px;
+    width: 71px;
+    position: absolute;
+    left: 0px;
   }
   
   .star-1 {
     background-image: url(../images/client/Star.png);
-    background-size: 100% 100%;
+    
+    background-color: transparent;
     height: 12px;
-    margin-top: 0;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
     width: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
   }
   
   .star {
     background-image: url(../images/client/Star.png);
-    background-size: 100% 100%;
+    background-color: transparent;
     height: 12px;
-    margin-left: 3px;
-    margin-top: 0;
+    left: 15px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .star2{
+    background-image: url(../images/client/Star.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 12px;
+    left: 29px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 12px;
+  }
+  .star3{
+    background-image: url(../images/client/Star.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    height: 12px;
+    left: 44px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
     width: 12px;
   }
   
   .star-2 {
     background-image: url(../images/client/Star.png);
-    background-size: 100% 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
     height: 12px;
-    margin-left: 3px;
-    margin-top: 0;
-    width: 12px;
+    left: 59px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 12px
   }
 
   @media screen and (max-width:767px){
     .clientcontainer{
       height: 1351px;
     top: 2990px;
+    }
+    .full-name{
+      line-height: 24px;
+      font-size: 18px;
     }
     .clients{
       height: 1230px;
@@ -274,16 +330,29 @@ font-size: 10px;
     top: 31px;
     width: 121px;
     }
-    .poppins-normal-heavy-metal-10px{
-      line-height: 24px;
-
-    }
+    
     .stars{
       height: 20px;
     left: 0px;
     
     top: 29px;
     width: 121px;
+    }
+    .star,.star-1,.star-2,.star2,.star3{
+      height: 20px;
+      width: 20px;
+    }
+    .star{
+      left: 25px;
+    }
+    .star2{
+      left: 50px;
+    }
+    .star3{
+      left: 75px;
+    }
+    .star-2{
+      left: 101px;
     }
     .client1{
       height: 372px;
@@ -311,5 +380,26 @@ font-size: 10px;
   text-align: left;
   position: absolute;
   font-size: 20.1px;
+    }
+    .component{
+      height: 80px;
+      width: 80px;
+    }
+    .component1{
+      background-color: transparent;
+    height: 100%;
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    }
+    .component2{
+      background-color: transparent;
+    height: 100%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0px;
+    width: 100%;
     }
   }

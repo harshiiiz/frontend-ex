@@ -12,7 +12,7 @@ function Footer() {
                     <div className="titled">
                         Susbcribe to our newsletter
                     </div>
-                <div className="primary-cta">
+                <div className="primary-ctaa">
                 <input
                 className="enter-your-email"
                 name="enteryouremail"
@@ -27,7 +27,7 @@ function Footer() {
             </div>
             
             <div className="frame2">
-            <div className="titlinks"></div>
+            
 
 
             <div className="socials">
@@ -35,8 +35,10 @@ function Footer() {
       
         </div>
         
+        
       
     </div>
+    <div className="titlinks"></div>
       
             </div>
         </div>

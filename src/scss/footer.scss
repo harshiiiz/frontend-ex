@@ -26,7 +26,9 @@ input:focus {
   }
   
   .frame-1 {
-    
+    left: 0px;
+    position: absolute;
+    top: 0px;
     height: 122px;
     width: 230px;
   }
@@ -35,21 +37,25 @@ input:focus {
       background: url(../images/Logo.png);
       background-color: transparent;
       height: 18px;
+      left: calc(50.00% - 116px);
       mix-blend-mode: normal;
       position: absolute;
       top: calc(50.00% - 62px);
       width: 91px;
+      background-size: cover;
+      background-repeat: no-repeat;
   }
   
   .text-input {
-    
-    margin-top: 35px;
+    position: absolute;
+   
     min-height: 69px;
     width: 230px;
     left: calc(50.00% - 115px);
     mix-blend-mode: normal;
     height: 69px;
     top: calc(50.00% - 8px);
+    
     
   }
   
@@ -66,32 +72,39 @@ color: var(--quick-silver);
 
   }
   
-  .primary-cta {
-    align-items: center;
+  .primary-ctaa {
+    
     background-color: var(--concrete);
     border-radius: 12px;
-    display: flex;
-    height: 40px;
-    margin-top: 5px;
-    min-width: 230px;
-    padding: 0 16px;
+    height: 57.97%;
+    left: 0px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 42.03%;
+    width: 100%;
+
   }
   
   .enter-your-email {
-    background-color: 
-  transparent;
+    background-color: transparent;
     border: 0;
+    color: var(--heavy-metal);
+    font-style: normal;
+    font-weight: 400;
     height: 24px;
-    letter-spacing: 0;
+    left: 16px;
     line-height: 24px;
+    mix-blend-mode: normal;
     opacity: 0.4;
     padding: 0;
+    position: absolute;
+    resize: none;
+    text-align: left;
+    top: 8px;
     white-space: nowrap;
     width: 151px;
     font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
+    font-size: 14px;
 
   }
   
@@ -101,17 +114,20 @@ font-size: 14px;
   }
   
   .place {
-    letter-spacing: 0;
+    
+    color: var(--red);
+    font-style: normal;
+    font-weight: 400;
+    height: auto;
+    left: 183px;
     line-height: 24px;
-    margin-left: 16px;
-    min-height: 24px;
-    min-width: 31px;
+    mix-blend-mode: normal;
+    position: absolute;
+    text-align: left;
+    top: 8px;
     white-space: nowrap;
-    font-family: 'Lato';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 24px;
+    width: auto;
+    font-size: 14px;
 
 color: #FF6250;
   }
@@ -138,11 +154,7 @@ color: #FF6250;
 
 }
 
-.valign-text-middle {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
+
 
 .socials {
   background-color: transparent;
@@ -160,7 +172,7 @@ color: #FF6250;
 }
 
 .livelinks {
-  
+   background: url(../images/Livelinks.png);
   background-color: transparent;
     height: 36px;
     left: calc(50.00% - 120px);
@@ -202,7 +214,7 @@ color: #FF6250;
 .logo{
   left: calc(50.00% - 158px);
     
-    top: calc(50.00% - 109px);
+    top: calc(50.00% - 59px);
     
 }
 .text-input{
@@ -210,7 +222,7 @@ color: #FF6250;
     left: calc(50.00% - 158px);
     mix-blend-mode: normal;
     position: absolute;
-    top: calc(50.00% - 62px);
+    top: calc(50.00% - 10px);
     margin-top: 0px;
 }
 .titlinks{

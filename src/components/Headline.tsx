@@ -14,10 +14,12 @@ const Headline:FC<proptype>=(props)=> {
           <div className="title">Headline</div>
           <div className="text">{props.para2}</div>
           </div>
-          <div className="buttonn">
-            <div className="buttonntext">
+          <div className="buttonhovered">
+          <div className="trybutton"></div>
+          <div className="buttonntext">
               Try free
-              </div></div>
+          </div>
+          </div>
         </div>
       </div>
     </div>

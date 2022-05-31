@@ -6,7 +6,7 @@ function Clients() {
   return (
     <div className='clientcontainer'>
       <div className="clients">
-        <h1 className="clienttitle">Clients</h1>
+        <div className="clienttitle">Clients</div>
         <div className="clientcomments">{
         [...Array(n)].map((e, i) => 
       <Client

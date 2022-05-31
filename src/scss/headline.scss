@@ -63,10 +63,10 @@ position: absolute;
     top: calc(50.00% - 6px);
     width: 210px;
     color: #3b3b3b;
+    font-family: 'Lato';
 }
-.buttonn{
-    background:#0b3835 ;
-    
+.buttonhovered{
+    background-color: var(--primary);
     border-radius: 12px;
     bottom: 0px;
     box-shadow: 0px 4.375px 17.5px #134e4a2e;
@@ -75,6 +75,21 @@ position: absolute;
     position: absolute;
     right: 90px;
     width: 120px;
+
+}
+.trybutton{
+    background-color: var(--tiber);
+    border-radius: 10.5px;
+    cursor: pointer;
+    height: 40px;
+    left: 0px;
+    mix-blend-mode: normal;
+    pointer-events: auto;
+    position: absolute;
+    top: calc(50.00% - 20px);
+    transition: all 0.2s ease;
+    width: 100%;
+
     
 }
 .buttonntext{
@@ -91,11 +106,13 @@ position: absolute;
     top: calc(50.00% - 12px);
     white-space: nowrap;
     width: auto;
+    font-size: 14px;
+    font-family: 'Lato';
 }
 
 .headlineimg{
     background: url(../images/ImagePlaceholder.png);
-    background-color: transparent;
+    
     height: 263px;
     left: 0px;
     mix-blend-mode: normal;
@@ -128,7 +145,10 @@ position: absolute;
     .title{
         text-align: center;
     }
-    .buttonn{
+    .buttonhovered{
         right: 45px;
+    }
+    .text{
+        text-align: center;
     }
 }

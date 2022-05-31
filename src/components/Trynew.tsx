@@ -15,9 +15,11 @@ const Trynew:FC<proptype>=(props) =>{
            </div>
            <div className="iphone">
                <div className="template">
-                   <div className="base">
-                   <div className="shadows"></div>
-                   
+                   <div className="base"></div>
+                   <div className="shadows">
+                       <div className="shadowimg3"></div>
+                       <div className="shadowimg2"></div>
+                       <div className="shadowimg1"></div>
                    </div>
                    <div className="blackcover"></div>
                    </div>
@@ -25,7 +27,7 @@ const Trynew:FC<proptype>=(props) =>{
                <div className="phonescreen"></div>
            </div>
            <div className="block">
-               <div className="learnmore">Learn more</div>
+               <div className="learnmore">Learn More</div>
                <div className="block2">
                    <div className="gplay"></div>
                    <div className="appstore"></div>

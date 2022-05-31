@@ -10,9 +10,9 @@
 }
 
 .toplogo{
-    background: url(../images/Logo.png);
-    background-color: transparent;
-    height: 25px;
+    background: url(../images/Logo.svg);
+    background-size: cover;
+    height: 18px;
     left: 29px;
     mix-blend-mode: normal;
     position: absolute;
@@ -29,7 +29,7 @@
     width: 211px;
 }
 .gp{
-    background: url(../images/trynew/Googlepaly.png);
+    background: url(../images/Googlepaly.svg);
     background-color: transparent;
     bottom: -16px;
     height: 58px;
@@ -41,11 +41,11 @@
 }
 
 .as{
-    background: url(../images/trynew/Appstore.png);
-    background-color: transparent;
+    background: url(../images/Appstore.svg);
+    
     bottom: -16px;
     height: 58px;
-    mix-blend-mode: normal;
+    
     position: absolute;
     right: -18px;
     width: 137px;
@@ -56,6 +56,7 @@
 @media screen and (max-width:767px){
 
 .toplogo{
+    height: 19px;
     left:19px;
 }
 .logocont{
