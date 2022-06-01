@@ -31,7 +31,7 @@ input:focus {
 }
 
 .logo {
-  background: url(../images/Logo.png);
+  background: url(../images/Logo.svg);
   background-color: transparent;
   height: 18px;
   left: calc(50.00% - 116px);
@@ -141,13 +141,76 @@ input:focus {
 }
 
 .titlinks {
-  background: url(../images/Titleslinks.png);
   background-color: transparent;
   height: 24px;
   left: 0px;
   position: absolute;
   top: 98px;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
   width: 315px;
+}
+
+.privacy {
+  background-color: transparent;
+  height: 100%;
+  left: 72.70%;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  white-space: nowrap;
+  width: 27.30%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #2D2D2D;
+}
+
+.cookies {
+  background-color: transparent;
+  height: 100%;
+  left: 37.94%;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: left;
+  top: 0px;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  white-space: nowrap;
+  width: 28.57%;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  color: #2D2D2D;
+}
+
+.trainerz {
+  background-color: transparent;
+  height: 100%;
+  left: 0px;
+  letter-spacing: 0.00px;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  color: #2D2D2D;
+  top: 0px;
+  white-space: nowrap;
+  width: 32.38%;
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
 }
 
 .socials {
@@ -166,7 +229,7 @@ input:focus {
 }
 
 .livelinks {
-  background: url(../images/Livelinks.png);
+  background: url(../images/Socials.svg);
   background-color: transparent;
   height: 36px;
   left: calc(50.00% - 120px);

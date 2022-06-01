@@ -38,7 +38,11 @@ function Footer() {
         
       
     </div>
-    <div className="titlinks"></div>
+    <div className="titlinks">
+      <div className="privacy">Privacy policy</div>
+      <div className="cookies">Cookies policy</div>
+      <div className="trainerz">© Trainers 2022</div>
+    </div>
       
             </div>
         </div>
